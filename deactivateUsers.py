@@ -45,7 +45,6 @@ def main():
 	l.basicConfig(level=l.INFO)
 	l.info('-- Start')
 	get_suspended_users()
-	l.info('-- End')
 
 if __name__ == '__main__':
 	main()
